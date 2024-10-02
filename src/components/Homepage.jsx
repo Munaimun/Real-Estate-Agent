@@ -9,7 +9,7 @@ const Homepage = () => {
   return (
     <>
       <div className="max-w-screen-lg mx-auto">
-        <div className="header ml-8 mt-44">
+        <div className="header ml-8 mt-42">
           <p className="font-black tracking-widest md:text-6xl sm:text-3xl mb-6">
             OUR <br /> BACKGROUND
           </p>

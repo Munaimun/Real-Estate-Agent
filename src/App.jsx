@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./Footer";
 import Homepage from "./components/Homepage";
 import About from "./components/About";
+import CopyOfAbout from "./components/CopyOfAbout";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<About />} />
+            <Route path="/copy-about" element={<CopyOfAbout />} />
           </Routes>
         </main>
 
