@@ -26,7 +26,9 @@ const Footer = () => {
         <div className="text-3xl tracking-widest font-semibold text-gray-300">
           Visit <br /> Us
           <hr className="border-gray-400 w-12 m-auto" />
-          <p className="text-base font-thin text-black">Hermosa Beach, CA</p>
+          <p className="text-base font-thin text-black mt-10">
+            Hermosa Beach, CA
+          </p>
         </div>
       </div>
     </div>
