@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
 
         {/* Menu (Hidden on mobile, shown on desktop) */}
-        <div className="hidden md:flex w-4/5 justify-center space-x-14">
+        <div className="hidden md:flex w-4/5 justify-center items-center space-x-14">
           <Link to="/" className="text-black hover:text-gray-300">
             WHO WE ARE
           </Link>
@@ -34,8 +34,10 @@ const Navbar = () => {
           <Link to="/brokerage" className="text-black hover:text-gray-300">
             BROKERAGE
           </Link>
-          <Link to="/contact" className="text-black hover:text-gray-300">
-            GET A FREE QUOTE
+          <Link to="/contact" className="group">
+            <button className="border border-black text-black transition-colors duration-300 group-hover:bg-black group-hover:text-white px-4 py-2">
+              GET A FREE QUOTE
+            </button>
           </Link>
         </div>
 
