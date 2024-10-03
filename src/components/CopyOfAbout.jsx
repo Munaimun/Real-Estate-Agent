@@ -1,12 +1,11 @@
-
 import WorkCard from "./cards/WorkCard";
 
 // imges of services
 import speed from "../assets/speed.png";
 import accurate from "../assets/accurate.png";
-import divorce from "../assets/divorce.png";
-import property from "../assets/property.png";
-import market from "../assets/market.png";
+import comprehensive from "../assets/comprehensive.png";
+import optimized from "../assets/optimized.png";
+import after from "../assets/after.png";
 
 //images of complete projects
 import westLe from "../assets/west-la.png";
@@ -25,27 +24,27 @@ const cardDetails = [
   },
   {
     image: accurate,
-    title: "TRUST ADMINISTRATION",
+    title: "ACCURATE COLLATERAL VALUATION",
     details:
       "Accurate valuation of collateral is crucial for securing your loan. With extensive experience in appraising multi-family and commercial properties throughout Los Angeles County, we provide precise and reliable assessments, giving you a solid foundation for your lending decisions.",
   },
   {
-    image: divorce,
-    title: "ESTATE PLANNING",
+    image: comprehensive,
+    title: "COMPREHENSIVE RISK ASSESMENT",
     details:
-      "This appraisal is utilized in legal proceedings to establish the fair market value of a property in divorce settlements or other disputes. It offers an objective valuation that supports the equitable division of assets and helps resolve conflicts fairly. This service ensures a transparent and unbiased valuation, which is vital for legal and financial negotiations.",
+      "Mitigate risk with our thorough appraisal reports. We provide detailed risk assessments, ensuring you have all the information needed to make informed lending decisions.",
   },
   {
-    image: property,
-    title: "ASSET MANAGEMENT",
+    image: optimized,
+    title: "OPTIMIZED LOAN-TO-VALUE RATIO",
     details:
       "This appraisal aids property owners in contesting their property tax assessments by providing an independent evaluation of the property's market value. It helps substantiate claims that the current tax assessment may be excessive. With a detailed and accurate valuation, this service supports efforts to potentially reduce property taxes and ensure fair taxation.",
   },
   {
-    image: market,
-    title: "TAX PLANNING",
+    image: after,
+    title: "AFTER REPAIR VALUE ESTIMATIONS",
     details:
-      "This appraisal delivers a thorough assessment of a property's current market value, considering recent sales, market trends, and property specifics. It is crucial for making informed decisions regarding buying, selling, or refinancing. This service provides a reliable estimate to guide transactions, investment analysis, and financial planning.",
+      "For properties requiring renovation or improvement, our After Repair Value (ARV) estimations give you a clear picture of the property's potential value post-repairs. This allows you to structure asset-based loans thaat are both fair and profitable.",
   },
 ];
 
@@ -57,14 +56,19 @@ const CopyOfAbout = () => {
         <p className="text-black text-5xl font-bold tracking-widest m-6 mb-6">
           PRIVATE LANDINGS <br /> APPRAISALS
         </p>
-        <p className="w-2/3 m-auto">When it comes to private money lending, speed and accuracy are paramount. We understand the unique needs of hard money lenders and offer expert appraisal services tailored specifically for multi-family and commercial properties.</p>
+        <p className="w-2/3 m-auto">
+          When it comes to private money lending, speed and accuracy are
+          paramount. We understand the unique needs of hard money lenders and
+          offer expert appraisal services tailored specifically for multi-family
+          and commercial properties.
+        </p>
 
         {/* WORKS SECTION */}
-        <div className="flex flex-wrap justify-center gap- mt-6">
+        <div className="flex flex-wrap justify-center gap- mt-12">
           {cardDetails.map((card, index) => (
             <div
               key={index}
-              className={`w-full sm:w-[calc(33%-1.5rem)] md:w-[calc(33%-1.5rem)] lg:w-[calc(33%-1.5rem)] ${
+              className={`w-full mb-6 sm:w-[calc(33%-1.5rem)] md:w-[calc(33%-1.5rem)] lg:w-[calc(33%-1.5rem)] ${
                 index >= 3 ? "sm:w-[calc(50%-1.5rem)]" : ""
               }`}
             >
@@ -77,8 +81,6 @@ const CopyOfAbout = () => {
           ))}
         </div>
       </div>
-
-
 
       {/* RECENT COMPLETE PROJECTS */}
       <p className="mt-16 text-lg sm:text-5xl sm:font-bold tracking-widest mb-8 text-blue-950 animate-bounce">
@@ -131,7 +133,7 @@ const CopyOfAbout = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CopyOfAbout
+export default CopyOfAbout;

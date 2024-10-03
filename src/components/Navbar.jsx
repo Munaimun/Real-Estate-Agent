@@ -31,6 +31,9 @@ const Navbar = () => {
           <Link to="/copy-about" className="text-black hover:text-gray-300">
             PRIVATE LENDERS
           </Link>
+          <Link to="/brokerage" className="text-black hover:text-gray-300">
+            BROKERAGE
+          </Link>
           <Link to="/contact" className="text-black hover:text-gray-300">
             GET A FREE QUOTE
           </Link>
