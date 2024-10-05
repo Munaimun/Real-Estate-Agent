@@ -78,7 +78,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/services" className="text-black hover:text-gray-700">
+              <Link to="/copy-about" className="text-black hover:text-gray-700">
+                PRIVATE LENDERS
+              </Link>
+            </li>
+            <li>
+              <Link to="/brokerage" className="text-black hover:text-gray-700">
                 BROKERAGE
               </Link>
             </li>

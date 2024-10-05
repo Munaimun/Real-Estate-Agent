@@ -13,7 +13,7 @@ const Homepage = () => {
           <p className="font-black tracking-widest md:text-6xl sm:text-3xl mb-6">
             OUR <br /> BACKGROUND
           </p>
-          <p className="w-3/4 leading-8">
+          <p className="sm:w-3/4 leading-8">
             At our firm, we&apos&apos;re more than just a team of
             experts—we&apos&apos;re your partners in navigating the complex
             world of real estate in Los Angeles County. Led by a Certified
@@ -22,7 +22,7 @@ const Homepage = () => {
             commercial properties across Southern California and successfully
             closed over $18 million in real estate transactions.
           </p>
-          <div className="float-end">
+          <div className="mt-6 float-end">
             <img src={leon} alt="" />
             <img src={leonlogo} alt="" className="ml-12" />
           </div>
@@ -38,8 +38,8 @@ const Homepage = () => {
           </button>
         </div>
 
-        <div className="w-2/4">
-          <p className="font-bold text-xs sm:text-6xl tracking-widest">
+        <div className="sm:w-2/4 sm:justify-center">
+          <p className="font-bold text-sm sm:text-6xl sm:ml-0 ml-24 sm:m-0 m-8 tracking-widest">
             SAMUEL <br /> MURPHY
           </p>
           <p className="sm:w-2/3 w-full mt-6 ml-6">
@@ -51,8 +51,8 @@ const Homepage = () => {
             understanding and commitment to your needs.
           </p>
 
-          <div className="flex flex-col sm:flex-row justify-between mt-12 lg:flex-row">
-            <div>
+          <div className="flex flex-col sm:flex-row text-center sm:justify-between mt-12 lg:flex-row">
+            <div className="sm:mb-0 mb-6">
               <a href="#" className="text-gray-500 underline">
                 samsdod.com
               </a>
@@ -92,12 +92,14 @@ const Homepage = () => {
         <button className="bg-sky-950 p-4 font-bold text-white text-xs tracking-widest mt-14">
           GET A QUOTE TODAY
         </button>
+
+        {/* slider section */}
         <div className="mt-12">
           <Slider />
         </div>
       </div>
 
-      <div className="max-w-screen-xl m-auto text-center flex flex-col">
+      <div className="max-w-screen-xl m-auto text-center flex flex-col mt-48">
         <p className="text-4xl font-bold m-11 italic tracking-widest">
           RECENT POSTS
         </p>

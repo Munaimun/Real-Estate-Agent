@@ -53,7 +53,7 @@ const CopyOfAbout = () => {
     <div className="text-center">
       {/* CARDs */}
       <div className="max-w-screen-xl m-auto text-center">
-        <p className="text-black text-5xl font-bold tracking-widest m-6 mb-6">
+        <p className="text-black text-3xl sm:text-5xl font-bold tracking-widest m-6 mb-6">
           PRIVATE LANDINGS <br /> APPRAISALS
         </p>
         <p className="w-2/3 m-auto">

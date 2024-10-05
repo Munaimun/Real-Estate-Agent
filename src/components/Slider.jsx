@@ -11,19 +11,19 @@ const testimonials = [
     id: 2,
     name: "Michelle B.",
     quote:
-      "sam consistently delivers thorough, unbiased appraisals. his integrity sets him apart.",
+      "Sam consistently delivers thorough, unbiased appraisals. His integrity sets him apart.",
   },
   {
     id: 3,
     name: "Chris P.",
     quote:
-      "I completed a 1031 exchange with sam, his expertise made the process smooth and stress-free. his knowledge was invaluable in maximizing my investment.",
+      "I completed a 1031 exchange with Sam, his expertise made the process smooth and stress-free. His knowledge was invaluable in maximizing my investment.",
   },
   {
-    id: 3,
+    id: 4,
     name: "Tony R.",
     quote:
-      "I highly recommend Sam for multi-family home appraisals. his thorough and reliable valuations have become essential in helping my investment decisions. Professional, transparent, and timely - i can't recommend him enough!",
+      "I highly recommend Sam for multi-family home appraisals. His thorough and reliable valuations have become essential in helping my investment decisions. Professional, transparent, and timely - I can't recommend him enough!",
   },
 ];
 
@@ -44,24 +44,30 @@ const Slider = () => {
 
   return (
     <div className="bg-gray-100 py-12 px-4 flex flex-col items-center">
-      <div className="max-w-2xl text-center relative">
+      <div className="max-w-2xl text-center relative ">
         {/* Slider Content */}
         <div>
-          <p className="text-gray-600 text-lg mb-4">
+          <p className="text-gray-600 text-lg sm:text-base mb-4">
             {testimonials[currentIndex].name}
           </p>
           <hr className="w-14 m-auto mt-6 border-gray-500" />
-          <p className="text-xl tracking-wider leading-9 font-bold text-gray-800 mb-6">
+          <p className="text-xs sm:text-lg tracking-wider leading-9 font-bold text-gray-800 mb-6">
             &quot;{testimonials[currentIndex].quote}&quot;
           </p>
         </div>
 
         {/* Navigation Controls */}
         <div className="flex justify-between items-center mt-6">
-          <button className="p-2 hover:bg-gray-400" onClick={prevSlide}>
+          <button
+            className="p-2 hover:bg-gray-400 rounded-full sm:rounded-none transition duration-300"
+            onClick={prevSlide}
+          >
             ❮
           </button>
-          <button className="p-2 hover:bg-gray-400" onClick={nextSlide}>
+          <button
+            className="p-2 hover:bg-gray-400 rounded-full sm:rounded-none transition duration-300"
+            onClick={nextSlide}
+          >
             ❯
           </button>
         </div>
