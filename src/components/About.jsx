@@ -51,9 +51,9 @@ const cardDetails = [
 const About = () => {
   return (
     <div className="text-center">
-      {/* CARDs */}
+      {/* CARDS */}
       <div className="max-w-screen-xl m-auto text-center">
-        <p className="text-black text-5xl font-bold tracking-widest m-6">
+        <p className="text-black text-3xl sm:text-5xl font-bold tracking-widest m-6">
           TRUST & ESTATE
         </p>
 

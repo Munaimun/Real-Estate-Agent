@@ -3,7 +3,7 @@ import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 const ContactForm = () => {
   return (
     <div className="max-w-4xl mx-auto py-12 px-6">
-      <h1 className="text-5xl font-bold mb-8">
+      <h1 className="text-2xl sm:text-5xl font-bold sm:mb-8">
         GET A FREE QUOTE TODAY!
         <a href="#" className="text-3xl ml-2 animate-pulse">
           📘
