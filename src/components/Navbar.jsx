@@ -11,10 +11,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 left-0 w-full bg-white block mb-6">
-      <div className="max-w-screen-xl py-2 flex justify-between items-center">
+    <nav className="sticky top-0 w-full bg-white block mb-6">
+      <div className="max-w-screen-xl m-auto py-2 flex justify-evenly items-center">
         {/* Logo */}
-        <div className="w-1/3 flex justify-center">
+        <div className="flex justify-center">
           <Link to="/">
             <img src={logo} alt="Logo" className="h-14" />
           </Link>

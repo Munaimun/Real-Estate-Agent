@@ -30,7 +30,7 @@ const Homepage = () => {
       </div>
 
       {/* IMAGE AND DETAILS */}
-      <div className="bg-slate-300 max-w-screen-2xl mt-56 flex flex-col sm:flex-row justify-around p-12">
+      <div className="bg-slate-300 max-w-screen-2xl m-auto mt-56 flex flex-col sm:flex-row justify-around p-12">
         <div className="max-w-screen-lg">
           <img src={profile} alt="" />
           <button className="bg-slate-600 mt-6 p-3 text-xs text-white font-bold hover:bg-white hover:text-black">
