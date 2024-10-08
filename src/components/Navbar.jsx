@@ -11,8 +11,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 left-0 w-full bg-white block">
-      <div className="max-w-screen-xl mx-auto py-8 flex justify-between items-center">
+    <nav className="sticky top-0 left-0 w-full bg-white block mb-6">
+      <div className="max-w-screen-xl py-2 flex justify-between items-center">
         {/* Logo */}
         <div className="w-1/3 flex justify-center">
           <Link to="/">
@@ -43,7 +43,7 @@ const Navbar = () => {
 
         {/* Burger Menu Button (Shown on mobile, hidden on desktop) */}
         <button
-          className="block md:hidden text-black focus:outline-none"
+          className="block mr-8 md:hidden text-black focus:outline-none"
           onClick={toggleMenu}
         >
           <svg

@@ -7,10 +7,14 @@ import About from "./components/About";
 import CopyOfAbout from "./components/CopyOfAbout";
 import Brokerage from "./components/Brokerage";
 import ContactForm from "./components/ContactForm";
+import ScrollToTop from "./components/Scroll/ScrollToTop";
 
 const App = () => {
   return (
     <Router>
+      {/* FOR THIS COMPONENT EVERY PAGE WILL SHOW FROM THE TOP */}
+      <ScrollToTop />
+
       <div className="flex flex-col min-h-screen">
         <Navbar />
 

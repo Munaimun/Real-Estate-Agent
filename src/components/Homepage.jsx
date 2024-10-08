@@ -13,7 +13,7 @@ const Homepage = () => {
           <p className="font-black tracking-widest md:text-6xl sm:text-3xl mb-6">
             OUR <br /> BACKGROUND
           </p>
-          <p className="sm:w-3/4 leading-8">
+          <p className="w-72 sm:w-3/4 leading-8">
             At our firm, we&apos&apos;re more than just a team of
             experts—we&apos&apos;re your partners in navigating the complex
             world of real estate in Los Angeles County. Led by a Certified
@@ -22,7 +22,7 @@ const Homepage = () => {
             commercial properties across Southern California and successfully
             closed over $18 million in real estate transactions.
           </p>
-          <div className="mt-6 float-end">
+          <div className="mt-6 mr-6 sm:mr-0 float-end">
             <img src={leon} alt="" />
             <img src={leonlogo} alt="" className="ml-12" />
           </div>
